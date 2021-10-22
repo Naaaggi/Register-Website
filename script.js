@@ -32,5 +32,5 @@ else if (password !== cpassword ) {
     return false;
 
 }
-
+else return true;
 }

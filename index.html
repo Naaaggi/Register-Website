@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Website</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 
 </head>
 <body>
     <div class="container">
-        <form name="contactForm" id="form" action="./success.html" onsubmit="return validateForm()" method="post">
+        <form name="contactForm" id="form" action="./success.html" onsubmit="return validateForm()">
                 <h2>Register</h2>
                 <div class="form-control">
                         <label for="username">Username</label>
@@ -37,7 +37,7 @@
                         <label for="confirm-password">Confirm Password</label>
                         <input type="password" id="password-confirm" placeholder="Confirm password">
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" value="Submit">Submit</button>
         </form>
 </div>
     
